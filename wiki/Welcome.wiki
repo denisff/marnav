@@ -2,4 +2,4 @@
 
 = Introduction =
 
-Help write the ]Requirements Requirements].
+Help write the [Requirements Requirements].
