@@ -9,3 +9,14 @@ Linux 2.6.x running on MiniATX or other low power form factor.  Best if no fans 
 == Interfaces ==
  * Selected NMEA 0183 devices
  * Selected NMEA 2000 devices
+
+== GUI ==
+The UI shown in the [http://www.marnav.info/blog/index.php/archives/2008/05/13/foss-navsoft-tease/ marnav.info blog] is not what I would recommend going forward.  I think it is important to instead follow the UI of the Gimp, with a separate toolbox window, and separate viewport windows.  I share this file with you so you can see what a complete glade file looks like.  There are references to Python callbacks in this glade file, so you won't be able to view it in a running program until the callbacks  are removed. Don't bother doing that ... this UI isn't worth fixing.
+
+I suggest that the Glade designer be used to prototype an initial UI layout.  Beware: the Glade designer is a bit tempramental, however each release is a step forward.  Implementing the entire project in C++ would make sense; I am also open to using other typed languages like Java and Scala.  Python/Jython is great for integration and scripting, and meshes with C/C++ really well.  Java 6 now contains scripting features.
+
+Anyway, if we start with a 100% Glade mockup we can get an idea of what to build, and discuss the implementation language.
+
+The next step would be to create some custom GTK components.  C++ would be best for this, I think.  The Gimp uses miniature GTK buttons - not sure how they do that.  I think the default GTK widgets are rather clunky.  It takes time to craft nice widgets, so it would make sense to examine The Gimp's custom widget code.
+
+A major issue will be to decide on the GPS feed mechanism.  Various open source alternatives exist.  This decision should support NMEA 0183 (via serial port and USB) as well as NMEA 2000.  The high level architectural design will probably be affected by this choice.
