@@ -1,6 +1,8 @@
 == Computing Platform ==
 
-Linux 2.6.x running on MiniATX or other low power form factor.  Best if no fans were required and no rotating storage were required. Windows XP / Mac compatibility would be nice. Multiple screens should be accommodated. Appliance-like instant on/off capability would be very desirable (such as provided by the embedded Linux now common to all [http://www.vnunet.com/vnunet/news/2216838/asus-offer-linux-motherboards Asus motherboards].)
+Linux 2.6.x running on MiniATX or other low power form factor.  Best if no fans were required and no rotating storage were required. Windows XP / Mac compatibility would be nice. Multiple screens should be accommodated. 
+
+Appliance-like instant on/off capability would be very desirable (such as provided by the embedded Linux now common to all [http://www.vnunet.com/vnunet/news/2216838/asus-offer-linux-motherboards Asus motherboards].) A 2GB flash drive could store dynamic data such a routes, tracks and waypoints.
 
 == Interfaces ==
  * Selected NMEA 0183 devices
