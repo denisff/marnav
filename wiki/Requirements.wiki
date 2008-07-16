@@ -18,7 +18,7 @@ The UI shown in the [http://www.marnav.info/blog/index.php/archives/2008/05/13/f
 
 It is better to follow the UI of the Gimp, with a separate toolbox window, and separate viewport windows.  
 
-The Glade designer might be used to prototype an initial UI layout.  Beware: the Glade designer is a bit temperamental, however each release is a step forward.  Implementing the entire project in C++ would make sense; I am also open to using other typed languages like Java and Scala.  Python/Jython is great for integration and scripting, and meshes with C/C++ really well.  Java 6 now contains scripting features, but GUIs built with Java all suck.  Adobe AIR makes terrific looking GUIs, but programming in ActionScript drives one mad.
+The Glade designer might be used to prototype an initial UI layout.  Beware: the Glade designer is a bit temperamental, however each release is a step forward.  Implementing the entire project in C++ would make sense; I am also open to using other typed languages like Java and Scala.  Python/Jython is great for integration and scripting, and meshes with C/C++ really well.  Java 6 now contains scripting features, but GUIs built with Java all suck.  Adobe AIR makes terrific looking GUIs, but there is no way to call from ActionScript to/from another language, such as is possible with C/Python and Java with JNI.
 
 Anyway, if we start with a 100% Glade mock up we can get an idea of what to build, and discuss the implementation language.
 
