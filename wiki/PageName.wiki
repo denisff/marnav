@@ -1,6 +1,4 @@
-#summary Requirements
-
-= Overview =
+= Requirements =
 
 == Computing Platform ==
 
