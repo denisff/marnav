@@ -2,10 +2,4 @@
 
 = Introduction =
 
-Help write the Requirements.
-
-= Details =
-Blah blah, blah blah.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Help write the ]Requirements Requirements].
