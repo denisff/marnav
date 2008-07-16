@@ -1,9 +1,11 @@
 #summary Requirements
 
-= Computing Platform =
+= Overview =
+
+== Computing Platform ==
 
 Linux 2.6.x running on MiniATX or other low power form factor.  Best if no fans were required and no rotating storage were required. Windows XP / Mac compatibility would be nice. Multiple screens should be accommodated.
 
-= Interfaces =
+== Interfaces ==
  * Selected NMEA 0183 devices
  * Selected NMEA 2000 devices
