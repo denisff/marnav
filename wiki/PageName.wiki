@@ -25,3 +25,8 @@ Anyway, if we start with a 100% Glade mockup we can get an idea of what to build
 The next step would be to create some custom GTK components.  C++ would be best for this, I think.  The Gimp uses miniature GTK buttons - not sure how they do that.  I think the default GTK widgets are rather clunky.  It takes time to craft nice widgets, so it would make sense to examine The Gimp's custom widget code.
 
 A major issue will be to decide on the GPS feed mechanism.  Various open source alternatives exist.  This decision should support NMEA 0183 (via serial port and USB) as well as NMEA 2000.  The high level architectural design will probably be affected by this choice.
+
+== License ==
+Dual licensing makes sense; free for non-commercial use, and something else for commercial use.  An attribution style license (MIT, BSD or Apache) or LGPL seems OK for non-commercial use.
+
+If we choice very permissive license we can't take code from other GPL projects, unless those are packaged separately (IE separately loaded dynamic library code.)
