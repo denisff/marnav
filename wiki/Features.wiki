@@ -46,3 +46,4 @@ The following proposed feature set is grouped by affinity and shows priority (1 
 || Add Range Bearing line (RBL) || 2 || || ||
 || Motion: relative or absolute || 2 || || Ship remains centered on screen or displayed chart remains static and ship sails off the edge of the screen ||
 || Continuously display range and bearing from current boat position || 1 || || ||
+|| Datums: WGS-84 (World Geodetic Datum 1984) only || 1 || || ||
