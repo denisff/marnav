@@ -28,7 +28,6 @@ One way to implement this would be to drive the display from a selection of XML 
  1. If {{{maxZoom}}} is not specified or has the value zero, then the layer should be always displayed for zoom levels above {{{minZoom}}};
  1. If a layer occurs in the data file that is not defined in the XML file, then its appearance would revert to default values ({{{friendlyName}}} same as {{{shortName}}}, outline color black, fill color light grey.)
 
-
 == Chart support ==
 || *Feature* || *Priority* || *Release* || *Comment* ||
 || S-57 v2 (DX90) || 1 || initial || ||
@@ -79,3 +78,11 @@ One way to implement this would be to drive the display from a selection of XML 
 || Motion: relative or absolute || 2 || || Ship remains centered on screen or displayed chart remains static and ship sails off the edge of the screen ||
 || Continuously display range and bearing from current boat position || 1 || || ||
 || Datums: WGS-84 (World Geodetic Datum 1984) only || 1 || || ||
+
+== Misc ==
+ 1. A real-time drawing of a vessel outline and an arrow depicting its course vector should be refreshed once a second.
+ 1. The vessel orientation should line up with the course vector. The length of the course vector should scale linearly with the vessel's speed.
+ 1. If the vessel is not moving the arrow should disappear.
+ 1. Specify the vessel outline via an XPM file.
+ 1. More than one vessel may need to be displayed at any given moment (AIS and radar overlays will need this);
+   1. An API call to define a vessel's appearance should include the vessel ID and the desired vessel outline to draw (so tugboats pulling barges look different from sailboats).
