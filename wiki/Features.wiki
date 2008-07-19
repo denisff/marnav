@@ -82,6 +82,12 @@ http://marnav.googlecode.com/svn/trunk/docs/images/charts.png
 || Continuously display range and bearing from current boat position || 1 || || ||
 || Datums: WGS-84 (World Geodetic Datum 1984) only || 1 || || ||
 
+== Tide and Current ==
+|| View predictions for any coordinate (specify waypoint; arbitrary point; point along route) || 2 || || ||
+|| View predictions for any coordinate (specify waypoint; arbitrary point; point along route) || 2 || || ||
+|| Enable/disable current vectors where known || 2 || || ||
+
+
 == Instruments ==
 || *Feature* || *Priority* || *Release* || *Comment* ||
 || Auto detect || || || ||
