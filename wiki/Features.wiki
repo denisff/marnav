@@ -48,6 +48,8 @@ One way to implement this would be to drive the display from a selection of XML 
 || Panning via arrow keybs and click-drag by mouse || 6 || || ||
 || Clicking on a location should center about that point and zoom the chart by 100% || 6 || || ||
 
+http://marnav.googlecode.com/svn/trunk/docs/images/charts.png
+
 == Overlays ==
 || *Feature* || *Priority* || *Release* || *Comment* ||
 || GRB || 2 || || read from a file by a plug-in ||
