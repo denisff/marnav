@@ -98,6 +98,7 @@ http://marnav.googlecode.com/svn/trunk/docs/images/grib2.png
 || View predictions for any coordinate (specify waypoint; arbitrary point; point along route) || 2 || || ||
 || View predictions for any coordinate (specify waypoint; arbitrary point; point along route) || 2 || || ||
 || Enable/disable current vectors where known || 2 || || ||
+
 http://marnav.googlecode.com/svn/trunk/docs/images/tide.png
 http://marnav.googlecode.com/svn/trunk/docs/images/current.png
 
