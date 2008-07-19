@@ -5,9 +5,20 @@ The following proposed feature set is grouped by affinity and shows priority (1 
 == Menu ==
 ||Feature||Priority||Release||Comment||
 ||Hotkey support||3|| || ||
-||Hotkey support||3|| || ||
 
 == Chart support ==
 ||Feature||Priority||Release||Comment||
 ||S-57||1|| || ||
 ||S-63||4|| || ||
+||BSB-4||2|| || ||
+||User input||6|| || ||
+
+== Export Formats ==
+||Feature||Priority||Release||Comment||
+||GPX||3|| || ||
+||Google Earth||3|| || ||
+
+== Import Formats ==
+||Feature||Priority||Release||Comment||
+||GPX||3|| || ||
+||Google Earth||3|| || ||
