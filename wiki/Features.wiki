@@ -24,6 +24,13 @@ The following proposed feature set is grouped by affinity and shows priority (1 
 || Automatically select appropriate chart(s) for given display area and magnification (this selection is per viewport) || 1 || ||  If a detail chart is available and appropriate for the current zoom level, show it, however if the detail chart does not cover the entire viewport then also load and display larger scale chart(s) for the area not covered by the detail chart.  This implies a need for an index of chart extents and scale factors. ||
 || Toggle display of chart boundaries || 6 || || ||
 
+== Overlays ==
+|| *Feature* || *Priority* || *Release* || *Comment* ||
+|| GRB || 2 || || read from a file by a plug-in ||
+|| AIS || 2 || || live data supplied from a plug-in ||
+|| Radar || 2 || || live data supplied from a plug-in ||
+|| DSC || 2 || || live data supplied from a plug-in ||
+
 == Export Formats ==
 || *Feature* || *Priority* || *Release* || *Comment* ||
 || GPX || 3 || || ||
