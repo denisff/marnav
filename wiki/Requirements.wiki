@@ -17,6 +17,7 @@ D-bus means that the applications / applets need to be on a single machine ([htt
 == GUI ==
 The UI shown in the [http://www.marnav.info/blog/index.php/archives/2008/05/13/foss-navsoft-tease/ marnav.info blog] is not what I would recommend going forward... (but the glade file used to make the software shown on the blog is [http://code.google.com/p/marnav/source/browse/trunk/src/marnav.glade here], if you want to examine it) This file is shown so you can see what a complete glade file looks like.  There are references to Python callbacks in this glade file, so you won't be able to view it in a running program until the callbacks  are removed. Don't bother doing that ... this UI isn't worth fixing.
 
+http://marnav.googlecode.com/svn/trunk/docs/images/gimp.png
 It is better to follow the UI of the Gimp, with a separate toolbox window, and separate viewport windows.  
 
 The Glade designer might be used to prototype an initial UI layout.  Beware: the Glade designer is a bit temperamental, however each release is a step forward.  Implementing the entire project in C++ would make sense; I am also open to using other typed languages like Java and Scala.  Python/Jython is great for integration and scripting, and meshes with C/C++ really well.  Java 6 now contains scripting features, but GUIs built with Java all suck.  Adobe AIR makes terrific looking GUIs, but there is no way to call from ActionScript to/from another language, such as is possible with C/Python and Java with JNI.
