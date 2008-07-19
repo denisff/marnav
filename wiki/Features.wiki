@@ -2,6 +2,12 @@
 
 The following proposed feature set is grouped by affinity and shows priority (1 is highest, 10 is lowest.)
 
-== Group ==
-||Feature||Priority||Comment||
-|| || || ||
+== Menu ==
+||Feature||Priority||Release||Comment||
+||Hotkey support||3|| || ||
+||Hotkey support||3|| || ||
+
+== Chart support ==
+||Feature||Priority||Release||Comment||
+||S-57||1|| || ||
+||S-63||4|| || ||
