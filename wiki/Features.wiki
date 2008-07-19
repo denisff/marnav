@@ -86,3 +86,4 @@ One way to implement this would be to drive the display from a selection of XML 
  1. Specify the vessel outline via an XPM file.
  1. More than one vessel may need to be displayed at any given moment (AIS and radar overlays will need this);
    1. An API call to define a vessel's appearance should include the vessel ID and the desired vessel outline to draw (so tugboats pulling barges look different from sailboats).
+ 1. Scrolling message area required
