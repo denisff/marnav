@@ -21,12 +21,12 @@ One way to implement this would be to drive the display from a selection of XML 
 </layers>
 }}}
 
-1. Default values for unspecified layer colors would be specified by the layers attributes;
-1. The visible attribute would only apply to layers not specified by layer elements; in other words, the visible attribute of the layers element indicates if layers should be displayed that are not described by any layer element;
-1. Zoom levels would be interpreted as 1:X, where X is specified in the XML file. For example, 1:50,000 would be specified in XML simply as 50000.  The layer should be displayed if the zoom level is between minZoom to maxZoom, inclusive;
-1. If minZoom is not specified or has the value zero, then the layer should be always displayed for zoom levels below maxZoom;
-1. If maxZoom is not specified or has the value zero, then the layer should be always displayed for zoom levels above minZoom;
-1. If a layer occurs in the data file that is not defined in the XML file, then its appearance would revert to default values (friendlyName same as shortName, outline color black, fill color light grey.)
+ 1. Default values for unspecified layer colors would be specified by the {{{layers}}} attributes;
+ 1. The visible attribute would only apply to layers not specified by {{{layer}}} elements; in other words, the visible attribute of the layers element indicates if layers should be displayed that are not described by any layer element;
+ 1. Zoom levels would be interpreted as 1:X, where X is specified in the XML file. For example, 1:50,000 would be specified in XML simply as 50000.  The layer should be displayed if the zoom level is between minZoom to maxZoom, inclusive;
+ 1. If minZoom is not specified or has the value zero, then the layer should be always displayed for zoom levels below maxZoom;
+ 1. If maxZoom is not specified or has the value zero, then the layer should be always displayed for zoom levels above minZoom;
+ 1. If a layer occurs in the data file that is not defined in the XML file, then its appearance would revert to default values (friendlyName same as shortName, outline color black, fill color light grey.)
 
 
 == Chart support ==
