@@ -70,7 +70,6 @@ http://marnav.googlecode.com/svn/trunk/docs/images/charts.png
 == Modes ==
 || *Feature* || *Priority* || *Release* || *Comment* ||
 || Up mode: North / Chart / Course / Heading || 3 || || ||
-|| || || || ||
 
 == Navigation ==
 || *Feature* || *Priority* || *Release* || *Comment* ||
@@ -80,6 +79,18 @@ http://marnav.googlecode.com/svn/trunk/docs/images/charts.png
 || Motion: relative or absolute || 2 || || Ship remains centered on screen or displayed chart remains static and ship sails off the edge of the screen ||
 || Continuously display range and bearing from current boat position || 1 || || ||
 || Datums: WGS-84 (World Geodetic Datum 1984) only || 1 || || ||
+
+== Options ==
+|| *Feature* || *Priority* || *Release* || *Comment* ||
+|| Distances: NM & yards; Km & meters || 3 || || ||
+|| Depths: Fathoms; Fathoms and feet; Feet; Meters|| || || ||
+|| Heights: Feet; Meters|| || || ||
+|| Speeds: Knots|| || || ||
+|| Temperature: Farenheight; Celsius|| || || ||
+|| Fuel: US Gallons; British Gallons; Liters|| || || ||
+|| Locations: Degrees minutes and seconds|| || || ||
+|| Time: 12 hour; 24 hour|| || || ||
+|| Bearings: Magnetic; True|| || || ||
 
 == Misc ==
  1. A real-time drawing of a vessel outline and an arrow depicting its course vector should be refreshed once a second.
