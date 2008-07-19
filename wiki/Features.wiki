@@ -1,0 +1,7 @@
+#summary Proposed feature set
+
+The following proposed feature set is grouped by affinity and shows priority (1 is highest, 10 is lowest.)
+
+== Group ==
+||Feature||Priority||Comment||
+|| || || ||
