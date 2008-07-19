@@ -64,7 +64,12 @@ http://marnav.googlecode.com/svn/trunk/docs/images/charts.png
 === GRB ===
 http://marnav.googlecode.com/svn/trunk/docs/images/gribSetup.png
 http://marnav.googlecode.com/svn/trunk/docs/images/gribLayers.png
+
+With only Wind and pressure layers enabled:
 http://marnav.googlecode.com/svn/trunk/docs/images/grib.png
+
+With all layers enabled:
+http://marnav.googlecode.com/svn/trunk/docs/images/grib2.png
 
 == Export Formats ==
 || *Feature* || *Priority* || *Release* || *Comment* ||
