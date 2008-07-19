@@ -28,3 +28,10 @@ The following proposed feature set is grouped by affinity and shows priority (1 
 || *Feature* || *Priority* || *Release* || *Comment* ||
 || Up mode: North / Chart / Course / Heading || 3 || || ||
 || || || || ||
+
+== Navigation ==
+|| *Feature* || *Priority* || *Release* || *Comment* ||
+|| Add route || 1 || || ||
+|| Add Mark || 1 || || ||
+|| Add Range Bearing line (RBL) || 2 || || ||
+|| Continuously display range and bearing from current boat position || 1 || || ||
