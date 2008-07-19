@@ -38,6 +38,8 @@ One way to implement this would be to drive the display from a selection of XML 
 || ARCS (Admiralty Raster Chart Service) || 6 || || raster format; available for almost any region of the world ocean ||
 || User input || 6 || || ||
 || Toggle display of chart boundaries || 6 || || ||
+|| Chart folder specification || 6 || || ||
+|| Autoinstall charts when a CD or DVD is inserted || 6 || || ||
 
 == Viewport Control ==
 || Duplicate viewport (Control/Command N) || 1 || || ||
@@ -80,6 +82,13 @@ http://marnav.googlecode.com/svn/trunk/docs/images/charts.png
 || Continuously display range and bearing from current boat position || 1 || || ||
 || Datums: WGS-84 (World Geodetic Datum 1984) only || 1 || || ||
 
+== Instruments ==
+|| *Feature* || *Priority* || *Release* || *Comment* ||
+|| Auto detect || || || ||
+|| Manual port configuration || || || ||
+|| Port troubleshooter || || || ||
+|| Data logging || || || ||
+
 == Options ==
 || *Feature* || *Priority* || *Release* || *Comment* ||
 || Distances: NM & yards; Km & meters || 3 || || ||
@@ -91,6 +100,17 @@ http://marnav.googlecode.com/svn/trunk/docs/images/charts.png
 || Locations: Degrees minutes and seconds|| || || ||
 || Time: 12 hour; 24 hour|| || || ||
 || Bearings: Magnetic; True|| || || ||
+
+== AIS ==
+|| *Feature* || *Priority* || *Release* || *Comment* ||
+|| Enable tracks || || || ||
+|| Specify track length (hours/minutes) || || || ||
+|| Enable predictors || || || ||
+|| Enable vessel names || || || ||
+|| Enable lost and dangerous target alerts || || || ||
+|| Dangerous target specification (distance and/or time) || || || ||
+|| Show base stations || || || ||
+|| Show aids to navigation || || || ||
 
 == Misc ==
  1. A real-time drawing of a vessel outline and an arrow depicting its course vector should be refreshed once a second.
