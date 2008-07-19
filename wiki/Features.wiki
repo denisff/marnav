@@ -12,6 +12,15 @@ The following proposed feature set is grouped by affinity and shows priority (1 
 || Color options: NOAA / S-57 || 4 || || ||
 || Day / dusk / night palettes || 4 || || ||
 
+One way to implement this would be to drive the display from a selection of XML definitions for layers, which would specify line color, area fill color, line weight and friendly layer name, and max/min zoom level for visibility.  Some layers contain details that should not be visible at low magnification (on a small scale chart.)  The XML file that defines layer appearance then we would be responsible for the contents of the XML file.  For example:
+
+<layers lineColor=”#000000” fillColor=”#00ffff” visible=”no”>
+    <layer shortName=”LNDARE” friendlyName=”Land”
+           lineColor=”#97935d” fillColor=”#cac57d”
+           minZoom=”40000” maxZoom=”200000” />
+</layers>
+
+
 == Chart support ==
 || *Feature* || *Priority* || *Release* || *Comment* ||
 || S-57 v2 (DX90) || 1 || initial || ||
@@ -23,7 +32,9 @@ The following proposed feature set is grouped by affinity and shows priority (1 
 || User input || 6 || || ||
 || Toggle display of chart boundaries || 6 || || ||
 
-== Zoom and Pan ==
+== Viewport Control ==
+|| Duplicate viewport (Control/Command N) || 1 || || ||
+|| Close viewport (Control/Command W) || 1 || || ||
 || Zoom window (pick 2 points with a mouse) || 1 || || ||
 || Zoom in /out (plus and minus keys) || 1 || || ||
 || Automatically select appropriate chart(s) for given display area and magnification (this selection is per viewport) || 1 || ||  If a detail chart is available and appropriate for the current zoom level, show it, however if the detail chart does not cover the entire viewport then also load and display larger scale chart(s) for the area not covered by the detail chart.  This implies a need for an index of chart extents and scale factors.  Flush charts that are no longer required for the current zoom level ||
