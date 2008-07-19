@@ -95,7 +95,7 @@ http://marnav.googlecode.com/svn/trunk/docs/images/grib2.png
 || Datums: WGS-84 (World Geodetic Datum 1984) only || 1 || || ||
 || Display route details in editable tabular format || 1 || || ||
 
-http://marnav.googlecode.com/svn/trunk/docs/images/charts.png
+http://marnav.googlecode.com/svn/trunk/docs/images/routeDetails.png
 
 == Tide and Current ==
 || View predictions for any coordinate (specify waypoint; arbitrary point; point along route) || 2 || || ||
