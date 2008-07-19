@@ -3,7 +3,7 @@
 The following proposed feature set is grouped by affinity and shows priority (1 is highest, 10 is lowest.)
 
 == Menu ==
-|| *Feature* || *Priority* || *Release* || *Comment* ||
+| *Feature* || *Priority* || *Release* || *Comment* |
 || Hotkey support || 3 || || ||
 
 == Chart support ==
