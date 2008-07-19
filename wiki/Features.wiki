@@ -12,7 +12,8 @@ The following proposed feature set is grouped by affinity and shows priority (1 
 || S-57 || 1 || initial || ||
 || S-63 || 4 || || ||
 || BSB-4 || 2 || || ||
-|| User input ||6|| || ||
+|| User input || 6 || || ||
+|| Automatically select appropriate chart for given display area and magnification || 1 || || ||
 
 == Export Formats ==
 || *Feature* || *Priority* || *Release* || *Comment* ||
@@ -21,8 +22,8 @@ The following proposed feature set is grouped by affinity and shows priority (1 
 
 == Import Formats ==
 || *Feature* || *Priority* || *Release* || *Comment* ||
-||GPX||3|| || ||
-||Google Earth||3|| || ||
+|| GPX || 3 || || ||
+|| Google Earth || 3 || || ||
 
 == Modes ==
 || *Feature* || *Priority* || *Release* || *Comment* ||
