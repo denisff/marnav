@@ -7,13 +7,21 @@ The following proposed feature set is grouped by affinity and shows priority (1 
 || Hotkey support || 3 || initial || ||
 || Toolbar || 1 || initial || ||
 
+== Colors ==
+|| *Feature* || *Priority* || *Release* || *Comment* ||
+|| Color options: NOAA / S-57 || 4 || || ||
+|| Day / dusk / night palettes || 4 || || ||
+
 == Chart support ==
 || *Feature* || *Priority* || *Release* || *Comment* ||
-|| S-57 || 1 || initial || ||
+|| S-57 v2 (DX90) || 1 || initial || ||
+|| S-57 v3.1 || 5 || || ||
 || S-63 || 4 || || ||
 || BSB-4 || 2 || || ||
+|| CMAP CM93/3 || 6 || || ||
 || User input || 6 || || ||
-|| Automatically select appropriate chart for given display area and magnification || 1 || || ||
+|| Automatically select appropriate chart(s) for given display area and magnification (this selection is per viewport) || 1 || || ||
+|| Toggle display of chart boundaries || 6 || || ||
 
 == Export Formats ==
 || *Feature* || *Priority* || *Release* || *Comment* ||
