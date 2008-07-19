@@ -2,6 +2,8 @@
 
 The following proposed feature set is grouped by affinity and shows priority (1 is highest, 10 is lowest.)
 
+Many images are from commercial packages.  We do not intend to duplicate their GUI; these images are for discussion purposes only.
+
 == Menu ==
 || *Feature* || *Priority* || *Release* || *Comment* ||
 || Hotkey support || 3 || initial || ||
@@ -58,6 +60,11 @@ http://marnav.googlecode.com/svn/trunk/docs/images/charts.png
 || AIS || 2 || || live data supplied from a plug-in ||
 || Radar || 2 || || live data supplied from a plug-in ||
 || DSC || 2 || || live data supplied from a plug-in ||
+
+=== GRB ===
+http://marnav.googlecode.com/svn/trunk/docs/images/gribSetup.png
+http://marnav.googlecode.com/svn/trunk/docs/images/gribLayers.png
+http://marnav.googlecode.com/svn/trunk/docs/images/grib.png
 
 == Export Formats ==
 || *Feature* || *Priority* || *Release* || *Comment* ||
