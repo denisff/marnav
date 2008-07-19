@@ -13,13 +13,13 @@ The following proposed feature set is grouped by affinity and shows priority (1 
 || Day / dusk / night palettes || 4 || || ||
 
 One way to implement this would be to drive the display from a selection of XML definitions for layers, which would specify line color, area fill color, line weight and friendly layer name, and max/min zoom level for visibility.  Some layers contain details that should not be visible at low magnification (on a small scale chart.)  The XML file that defines layer appearance then we would be responsible for the contents of the XML file.  For example:
-
+{{{
 <layers lineColor=”#000000” fillColor=”#00ffff” visible=”no”>
     <layer shortName=”LNDARE” friendlyName=”Land”
            lineColor=”#97935d” fillColor=”#cac57d”
            minZoom=”40000” maxZoom=”200000” />
 </layers>
-
+}}}
 
 == Chart support ==
 || *Feature* || *Priority* || *Release* || *Comment* ||
