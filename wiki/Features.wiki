@@ -22,7 +22,7 @@ The following proposed feature set is grouped by affinity and shows priority (1 
 || ARCS (Admiralty Raster Chart Service) || 6 || || raster format; available for almost any region of the world ocean ||
 || User input || 6 || || ||
 || Toggle display of chart boundaries || 6 || || ||
-|| Automatically select appropriate chart(s) for given display area and magnification (this selection is per viewport) || 1 || ||  If a detail chart is available and appropriate for the current zoom level, show it, however if the detail chart does not cover the entire viewport then also load and display larger scale chart(s) for the area not covered by the detail chart.  This implies a need for an index of chart extents and scale factors. ||
+|| Automatically select appropriate chart(s) for given display area and magnification (this selection is per viewport) || 1 || ||  If a detail chart is available and appropriate for the current zoom level, show it, however if the detail chart does not cover the entire viewport then also load and display larger scale chart(s) for the area not covered by the detail chart.  This implies a need for an index of chart extents and scale factors.  Flush charts that are no longer required for the current zoom level ||
 || Panning via keyboard and click-drag by mouse || 6 || || ||
 || clicking on a location should center about that point and zoom the chart by 100% || 6 || || ||
 
