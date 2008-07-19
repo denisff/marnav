@@ -34,6 +34,16 @@ S-57 vector charts must be supported, and BSB-4 charts should be supported. The 
 == Features ==
 See [Features].
 
+== Test data ==
+Test data should simulate real instruments.  A facility to generate test data via a simple script should be provided, and a capture / replay feature should be provided.  Test data should include NMEA 0183 sentences and NMEA 2000 PGNs for:
+ * GPS
+ * AIS
+ * Weather
+ * Radar
+ * DSC
+
+A facility to consume data from an IP address should be provided (feeds for AIS data are available on the Internet; see [http://www.marnav.info/blog/index.php/archives/2007/05/30/live-ais-data/ this blog].)
+
 == License ==
 Dual licensing makes sense; free for non-commercial use, and something else for commercial use.  An attribution style license (MIT, BSD or Apache) or LGPL seems OK for non-commercial use.
 
