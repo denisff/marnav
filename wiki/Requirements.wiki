@@ -31,7 +31,7 @@ A major issue will be to decide on the GPS feed mechanism.  Various open source 
 S-57 vector charts must be supported, and BSB-4 charts should be supported. The [http://home.gdal.org/projects/s57/index.html OGR] subproject of the GDAL project may be useful.
 
 == Features ==
-See Features.
+See [Features].
 
 == License ==
 Dual licensing makes sense; free for non-commercial use, and something else for commercial use.  An attribution style license (MIT, BSD or Apache) or LGPL seems OK for non-commercial use.
