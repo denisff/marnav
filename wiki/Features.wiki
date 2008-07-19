@@ -19,6 +19,7 @@ The following proposed feature set is grouped by affinity and shows priority (1 
 || S-63 || 4 || || ||
 || BSB-4 || 2 || || ||
 || CMAP CM93/3 || 6 || || ||
+|| ARCS (Admiralty Raster Chart Service) || 6 || || raster format; available for almost any region of the world ocean ||
 || User input || 6 || || ||
 || Automatically select appropriate chart(s) for given display area and magnification (this selection is per viewport) || 1 || || ||
 || Toggle display of chart boundaries || 6 || || ||
