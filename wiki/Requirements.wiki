@@ -42,6 +42,8 @@ Test data should simulate real instruments.  A facility to generate test data vi
  * Radar
  * DSC
 
+http://marnav.googlecode.com/svn/trunk/docs/images/portConfig.png
+
 A facility to consume data from an IP address should be provided (feeds for AIS data are available on the Internet; see [http://www.marnav.info/blog/index.php/archives/2007/05/30/live-ais-data/ this blog].)
 
 == License ==
