@@ -44,4 +44,5 @@ The following proposed feature set is grouped by affinity and shows priority (1 
 || Add route || 1 || || ||
 || Add Mark || 1 || || ||
 || Add Range Bearing line (RBL) || 2 || || ||
+|| Motion: relative or absolute || 2 || || Ship remains centered on screen or displayed chart remains static and ship sails off the edge of the screen ||
 || Continuously display range and bearing from current boat position || 1 || || ||
