@@ -12,7 +12,7 @@
 #include <poll.h>
 
 #include "sirf3.h"
-#include "udgps.h"
+//#include "udgps.h"
 
 using namespace autoboat::hw;
 

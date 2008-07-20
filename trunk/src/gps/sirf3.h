@@ -1,19 +1,14 @@
 #pragma once
-/**
- * This is a simple driver for the Sirf3 based GPS.
+/** This is a simple driver for the Sirf3 based GPS.
  *
- * - Use Baud rate 4800bps, 8N1.
- */
+ * - Use Baud rate 4800bps, 8N1.  */
 #include <string.h>
 #include <termios.h>
 #include <time.h>
 
-namespace autoboat
-{
-namespace hw
-{
-class Sirf3
-{
+namespace autoboat {
+namespace hw {
+class Sirf3 {
   public:
     static const int NMEA_MAX = 120;
     static const int MAXTAGLEN = 8;
