@@ -44,6 +44,31 @@ A major issue will be to decide on the GPS feed mechanism.  Various open source 
 == Charts ==
 S-57 vector charts must be supported, and BSB-4 charts should be supported. The [http://home.gdal.org/projects/s57/index.html OGR] subproject of the GDAL project may be useful.
 
+There is a BSB (RNC/KAP) reader library here:
+http://home.gdal.org/projects/bsb/index.html 
+
+NOAA's ENC (S-57) charts are here:
+http://nauticalcharts.noaa.gov/mcd/enc/download.htm
+
+[http://nauticalcharts.noaa.gov/mcd/Raster/Index.htm NOAA supports RNC/KAP charts] in S61 format, too.  We probably need to support it since it is well established in the market.
+
+Grass will read S-52 (symbology files) and S-57 (chart data files.) The S-52 standard
+contains the standardized coloring and symbology for electronic navigation charts. We want to view the S-57 data through the lens of the S-52 rules. OpenEV has a module that can do that, and it will work with Grass.
+http://grass.osgeo.org/wiki/S-57_data
+
+Grass will export any map format it can read to the (raster, natch) format needed by gpsdrive:
+http://grass.osgeo.org/wiki/Export_for_GpsDrive
+
+There is also an S57 reader in GDAL:
+http://home.gdal.org/projects/s57/index.html
+http://home.gdal.org/projects/iso8211/index.html
+
+S63 maps are encrypted.
+See also: http://www.s63x.org/LinkedDocuments/S-63%20extended%20Working%20Group...
+
+Primar-Stavanger is a distributors of S-63 charts.
+http://www.primar-stavanger.org/
+
 == Features ==
 See [Features].
 
