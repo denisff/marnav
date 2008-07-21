@@ -5,13 +5,16 @@
  1. Best if no fans were required and no rotating storage was required; however optional hard drives should be supported. 
  1. Windows XP / Mac compatibility would be nice, but if a desirable feature would be seriously compromised in Windows then that feature simply won't be supported in a Windows version of the software, if and when a Windows version might be created.
  1. Windows support via [http://www.colinux.org/ coLinux] is fine.
- 1. Multiple screens should be accommodated. 
+ 1. Multiple screens should be accommodated; support for at least two SVGA and/or DVI monitors.
  1. Appliance-like instant on/off capability would be very desirable (such as provided by [http://en.wikipedia.org/wiki/LinuxBIOS LinuxBIOS] or [http://en.wikipedia.org/wiki/Splashtop Splashtop] now common to all [http://www.vnunet.com/vnunet/news/2216838/asus-offer-linux-motherboards Asus motherboards].)
  1. A 2GB flash drive could store dynamic data such a routes, tracks and waypoints.
  1. Wireless support
  1. USB support (4 ports @ 500mW desired, but at least 1 port required.)
  1. CAN / NMEA 2000 support
  1. Ethernet support (GB Ethernet desirable but not required.)
+ 1. DVD support required (but can be temporarily connected via USB) in order to load charts.
+ 1. System and monitors must run off 12vdc and perform own power filtering.
+ 1. UPS support desirable, but only if a UPS running from 12vdc is found.
 
 == Interfaces ==
  * Selected NMEA 0183 devices
