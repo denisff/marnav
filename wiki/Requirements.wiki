@@ -1,4 +1,4 @@
-#summary Requirements for the MarNav project.
+#summary Annotated requirements for the MarNav project.
 == Computing Platform ==
  1. Linux 2.6.x running on MiniATX or other low power form factor.
  1. Power down mode required.
@@ -63,7 +63,9 @@ There is also an S57 reader in GDAL:
 http://home.gdal.org/projects/s57/index.html
 http://home.gdal.org/projects/iso8211/index.html
 
-S63 maps are encrypted.
+OpenMap have an ISO8211 parser that looks like it is ported line by line from [http://www.gdal.org/ogr/drv_s57.html OGR], although ISO8211 is not   S57, just the underlying format that we will need to read to process S57. 
+
+The S63 map format is essentially an encrypted version of the S57 standard.
 See also: http://www.s63x.org/LinkedDocuments/S-63%20extended%20Working%20Group...
 
 Primar-Stavanger is a distributors of S-63 charts.
