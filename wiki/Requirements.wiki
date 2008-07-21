@@ -17,6 +17,14 @@
  1. UPS support desirable, but only if a UPS running from 12vdc is found.
  1. Ability to boot into the navigation application running from flash desirable, however ability to run other applications should be retained.
 
+== Computer Language(s) ==
+We are considering Java, C++ and Python/Jython.
+|| Feature || Java || C++ || Python || Jython ||
+|| Support multithreading and/or multiprocessing. || Yes || Yes || [http://parand.com/say/index.php/2008/05/28/multi-process-vs-multi-threaded-python-performance/ Yes] || Yes ||
+|| Integrate well with C and C++ || Yes || Yes || Yes || Yes || 
+|| Strongly typed || Yes || Yes || No || No ||
+|| Runs well on small systems || Pig || Yes || Slow || Piggishly slow ||
+
 == Interfaces ==
  * Selected NMEA 0183 devices
  * Selected NMEA 2000 devices
