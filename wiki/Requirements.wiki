@@ -15,6 +15,7 @@
  1. DVD support required (but can be temporarily connected via USB) in order to load charts.
  1. System and monitors must run off 12vdc and perform own power filtering.
  1. UPS support desirable, but only if a UPS running from 12vdc is found.
+ 1. Ability to boot into the navigation application running from flash desirable, however ability to run other applications should be retained.
 
 == Interfaces ==
  * Selected NMEA 0183 devices
