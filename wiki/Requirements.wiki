@@ -77,9 +77,9 @@ See [Features].
 == Framework ==
 We might roll our own, or build on an existing open source project.  Candidates are: [http://udig.refractions.net  UDig], [http://grass.osgeo.org/ GRASS] and [http://openev.sourceforge.net/ OpenEV].
 
-uDig is an application framework for GIS software -- meaning it has its own pre-defined widgets for displaying maps, panning, zooming, viewing features and attributes, annotating/editing features/attributes, etc., etc.  uDig is built on Eclipse, and all the Eclipse applications I (Mike) have seen display static images.  Navigation software requires animation and real-time display.  Is uDig suitable for this task?   
-
 Animation is required to show moving vessels in real time, along with direction vectors, to animate a compass rose when under way, and to display radar sweeps.
+
+uDig is an application framework for GIS software -- meaning it has its own pre-defined widgets for displaying maps, panning, zooming, viewing features and attributes, annotating/editing features/attributes, etc., etc.  uDig is built on Eclipse, and all the Eclipse applications I (Mike) have seen display static images.  Navigation software requires animation and real-time display.  Is uDig suitable for this task?   One way to make the assessment would be to attempt to write a program that follows a mouse using uDig, and displays a velocity vector corresponding to the speed and direction of the mouse.
 
 == Test data ==
 Test data should simulate real instruments.  A facility to generate test data via a simple script should be provided, and a capture / replay feature should be provided.  Test data should include NMEA 0183 sentences and NMEA 2000 PGNs for:
