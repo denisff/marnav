@@ -19,7 +19,7 @@
 
 == Computer Language(s) ==
 We are considering Java, C++ and Python/Jython.
-|| Feature || Java || C++ || Python || Jython ||
+|| *Feature* || *Java* || *C++* || *Python* || *Jython* ||
 || Support multithreading and/or multiprocessing. || Yes || Yes || [http://parand.com/say/index.php/2008/05/28/multi-process-vs-multi-threaded-python-performance/ Yes] || Yes ||
 || Integrate well with C and C++ || Yes || Yes || Yes || Yes || 
 || Strongly typed || Yes || Yes || No || No ||
