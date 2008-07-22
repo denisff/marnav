@@ -89,6 +89,8 @@ We might roll our own, or build on an existing open source project.  Candidates 
 
 Animation is required to show moving vessels in real time, along with direction vectors, to animate a compass rose when under way, and to display radar sweeps.  Mike had used Cairo (part of GTK) for the animation for Willow's project and it was fine. 
 
+Real-time display of multiple streams of data is required, but our requirements are quite lax. Jitter of 500ms is quite acceptable.  We are fine with unbounded latency and non-determinism.
+
 uDig is an application framework for GIS software -- meaning it has its own pre-defined widgets for displaying maps, panning, zooming, viewing features and attributes, annotating/editing features/attributes, etc., etc.  uDig is built on Eclipse, and all the Eclipse applications I (Mike) have seen display static images.  Navigation software requires animation and real-time display.  Is uDig suitable for this task? If we go with Eclipse, Cairo will need to be replaced by SWT.  One way to make the assessment would be to attempt to write a program that follows a mouse using uDig, and displays a velocity vector corresponding to the speed and direction of the mouse.
 
 == Test data ==
