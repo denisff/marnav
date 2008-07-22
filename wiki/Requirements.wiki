@@ -18,7 +18,7 @@
  1. Ability to boot into the navigation application running from flash desirable, however ability to run other applications should be retained.
 
 == Computer Language(s) ==
-We are considering Java, C++ and Python/Jython.
+We are considering Java, C++ and Python/Jython.  The following is unsubstantiated BS; we should really run some benchmarks on target hardware to see if the 'pig' labels are justified.
 || *Feature* || *Java* || *C++* || *Python* || *Jython* ||
 || Support multithreading and/or multiprocessing. || Yes || Yes || [http://parand.com/say/index.php/2008/05/28/multi-process-vs-multi-threaded-python-performance/ Yes] || Yes ||
 || Integrate well with C and C++ || Yes || Yes || Yes || Yes || 
