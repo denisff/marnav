@@ -24,6 +24,7 @@ We are considering Java, C++ and Python/Jython.  The following is unsubstantiate
 || Integrate well with C and C++ || Yes || Yes || Yes || Yes || 
 || Strongly typed || Yes || Yes || No || No ||
 || Runs well on small systems || Pig || Yes || Slow || Piggishly slow ||
+|| Good programmer productivity || Yes || No ([http://www.sgi.com/tech/stl/ STL] better?) || Medium (bad IDEs) || Medium (bad IDEs) ||
 
 == Interfaces ==
  * Selected NMEA 0183 devices
