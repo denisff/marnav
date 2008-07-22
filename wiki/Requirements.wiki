@@ -103,6 +103,36 @@ http://marnav.googlecode.com/svn/trunk/docs/images/portConfig.png
 
 A facility to consume data from an IP address should be provided (feeds for AIS data are available on the Internet; see [http://www.marnav.info/blog/index.php/archives/2007/05/30/live-ais-data/ this blog].)
 
+We might create a system, not unlike gpsd or gypsy that will collect and correlate all this incoming data, and then pass it as 'events' into a set of computed 'instruments'.
+
+Think in terms of "model, view, controller.  These are controls:
+
+The Position Control complies with the NMEA sentence protocol {{{$xxRMC}}} (Recommended Minimum Navigation Information) and the Garmin proprietary sentence {{{$GPRMZ}}} [Altitude Information].
+
+The GPS Satellite Health Control tracks the state of the GPS Satellites in the sky: their elevation, azimuth, and SNR dB levels.
+
+Satellites may be added to the control by merely passing the correct NMEA sentences to it, or manually. The control may also be set to automatically remove satellites if the signal strength of any given satellite falls below a specificed value.
+
+The GPS Satellite Elevation Control. This control tracks the elevations of the GPS satellites within view.
+
+The Compass Control tracks one or more NMEA compasses.  In the absence of a compass, a GPS heading may be used.
+
+The Wind Control tracks the angle of the wind and the speed of the wind. Wind angles may be tracked as both Relative and/or True. This conforms to the NMEA {{{$..MWV}}} sentence, which means this control will accept NMEA sentences via the MWV Method.
+
+The Rudder Control matches the NMEA sentence {{{$..RSA}}} and tracks the angle of the rudder sensor on the rudder (the starboard rudder in dual systems).
+
+The Cross Track Alarm Control conforms to the NMEA {{{$..RMB}}} sentence (Recommended Minimum Navigation Information). It triggers an Event when the XTE is equal to or greater than a specified number of nautical miles.
+
+The Depth and Water Temperature Control accepts four NMEA sentences: {{{$..DBK}}} (Depth Below Keel); {{{$..DBS}}} (Depth Below Surface); $..DBT (Depth below transducer); and {{{$..MTW}}} (Water Temperature).
+
+The Course and Speed (Ground) control accepts NMEA sentences {{{RMA}}}, {{{RMV}}}, and {{{VTG}}} via the {{{RMA}}}, {{{RMC}}}, and {{{VTG}}} Methods. The {{{VTG}}} Method will accept both the old and new NMEA Standard format. The control tracks either Magnetic and True course, and speed in either Knots, Miles Per Hour, or Kilometers Per Hour.
+
+The Set-and-Drift control tracks the cumulative effects of current, leeway, and poor steering: the cumulative effect of these forces causes a boat to travel off the desired course and retards or augments the boat's true speed (that is, speed over the ground instead of through the water). The direction that effect moves the boat is called set; the force applied against the boat, expressed in knots, is the drift.
+
+Note that these controls also handle input events from the user interface (configuration, etc.)
+
+Once we have this, I think its straight-forward to both feed a chart plotter, and make virtual instruments for it.   I even think the  two halves could proceed in parallel. 
+
 == License ==
 Dual licensing makes sense; free for non-commercial use, and something else for commercial use.  An attribution style license (MIT, BSD or Apache) or LGPL seems OK for non-commercial use.
 
