@@ -133,6 +133,8 @@ The Set-and-Drift control tracks the cumulative effects of current, leeway, and 
 
 Note that these controls also handle input events from the user interface (configuration, etc.)
 
+Best if the NMEA 0183 code could also handle NMEA 2000 PGNs (subclasses for 0183 and N2K?) 
+
 Once we have this, I think its straight-forward to both feed a chart plotter, and make virtual instruments for it.   I even think the  two halves could proceed in parallel. 
 
 == License ==
