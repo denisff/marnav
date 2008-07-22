@@ -16,6 +16,7 @@
  1. System and monitors must run off 12vdc and perform own power filtering.
  1. UPS support desirable, but only if a UPS running from 12vdc is found.
  1. Ability to boot into the navigation application running from flash desirable, however ability to run other applications should be retained.
+ 1. waterproof case (like [http://www.carryitcases.com.au/category249_1.htm IP67]) might be a good option to support
 
 == Computer Language(s) ==
 We are considering Java, C++ and Python/Jython.  The following is unsubstantiated BS; we should really run some benchmarks on target hardware to see if the 'pig' labels are justified.
