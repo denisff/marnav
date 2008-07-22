@@ -81,6 +81,9 @@ http://marnav.googlecode.com/svn/trunk/docs/images/grib2.png
 || GPX || 3 || || ||
 || Google Earth || 3 || || ||
 
+[http://www.justmagic.com/RasterChart2BSB.html Google Earth/Ocean] integration be a highly desirable feature set.
+ 
+
 == Modes ==
 || *Feature* || *Priority* || *Release* || *Comment* ||
 || Up mode: North / Chart / Course / Heading || 3 || || ||
