@@ -1,0 +1,31 @@
+# http://folks.o-hand.com/iain/gypsy/  Iain Holmes iain@gnome.org
+# http://gypsy.freedesktop.org/wiki/
+# http://gypsy.freedesktop.org/reference/html/rn01.html
+# http://hany.sk/~hany/RPM/f-updates-8-i386/gypsy-0.6-3.fc8.i386.html
+# http://blogs.gnome.org/iain/2007/11/12/like-whores-dancing-for-their-trinkets/
+# http://lists.freedesktop.org/archives/geoclue/2007-November/000185.html
+# http://guadec.expectnation.com/guadec08/public/schedule/detail/32
+# http://cgit.freedesktop.org/gypsy/
+# http://www.slideshare.net/bergie/geoclue-and-gypsy/
+# http://gentoo-wiki.com/HOWTO_GPS_/_Microsoft_GPS-360
+
+# This looks interesting but I do not understand WHAT this guy is saying:
+# https://help.ubuntu.com/community/UMEGuide/ApplicationDevelopment/GPSEnabledWebApplication
+
+sudo emerge -anv net-wireless/bluez-libs sys-apps/dbus dev-util/git # install dependencies
+git clone git://anongit.freedesktop.org/git/gypsy # fetch from new repository
+cd gypsy
+./autogen.sh
+make
+sudo make install
+
+# Discover where the USB GPS lives:
+#$ lsusb
+#Bus 004 Device 001: ID 0000:0000
+#Bus 003 Device 001: ID 0000:0000
+#Bus 001 Device 001: ID 0000:0000
+#Bus 002 Device 003: ID 067b:2303 Prolific Technology, Inc. PL2303 Serial Port
+#Bus 002 Device 001: ID 0000:0000
+
+
+examples/simple-gps-python.py /dev/usb01
