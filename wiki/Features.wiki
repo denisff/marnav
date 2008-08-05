@@ -109,11 +109,21 @@ http://marnav.googlecode.com/svn/trunk/docs/images/tide.png
 http://marnav.googlecode.com/svn/trunk/docs/images/current.png
 
 == Instruments ==
+There are three types of of GPS subsystems:
+ * Embedded chip set
+ * External NMEA 0183 bus
+ * External CAN/NMEA 2000 bus
+
+Each of these sources of GPS data is device specifi; and existing vendors do not provide software abstraction, so all applications must write drivers to support specific devices.  The existing GPS subsystems for Linux are either buggy or very limited in scope.
+
+We need a unified GPS driver subsystem for Moblin that will be plug and play, supporting all popular GPSes, support all three types of subsystems described above,  fault tolerant, supporting device priority and easily extensible for new GPS devices.
+
 || *Feature* || *Priority* || *Release* || *Comment* ||
 || Auto detect || || || ||
 || Manual port configuration || || || ||
 || Port troubleshooter || || || ||
 || Data logging || || || ||
+
 
 == Options ==
 || *Feature* || *Priority* || *Release* || *Comment* ||
